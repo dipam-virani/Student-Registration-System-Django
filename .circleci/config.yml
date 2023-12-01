@@ -12,9 +12,7 @@ jobs:
           name: Install dependencies
           command: |
             python -m venv venv
-            ls -l venv/Scripts/activate
-            cat venv/Scripts/activate
-            . ./venv/Scripts/activate
+            ./Student-Registration-System-Django/studentreg/venv/Scripts/activate
             pip install -r ./studentreg/requirement.txt
 
       - run:
