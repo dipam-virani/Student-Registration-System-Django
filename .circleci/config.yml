@@ -13,7 +13,7 @@ jobs:
           command: |
             python -m venv venv
             . venv/bin/activate
-            pip install -r requirements.txt
+            pip install -r C:\Users\Keval\Downloads\Student-Registration-System-Django (1)\Student-Registration-System-Django\studentreg\studentregistration\venv\Lib\site-packages
 
       - run:
           name: Run tests
